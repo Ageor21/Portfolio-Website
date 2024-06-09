@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    
+</head>
+<body>
+    <link rel="stylesheet" href="/static/styles2.css">
+    {%include "nav.html"%}
+        <form action="https://formspree.io/f/xwkgdjvk" method="POST">
+        <h1>Contact Form</h1>
+        <input type="text" name="first" placeholder="First Name" autocomplete="off" required>
+        <input type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+        <input type="email" name="email" placeholder="Email Address" autocomplete="off" required>
+        <textarea rows="5" cols="60" name="message" placeholder="Enter Text" autocomplete="off" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</nav>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+#banner{
+    font-family: Calibri;
+    font-size: 175%;
+}
+#images{
+    height: 360px;
+    width: 100%;
+    object-fit:cover;
+    margin-bottom: 20px;
+
+}
+#button{
+    margin-top: 20px;
+    margin-bottom:100px;
+}
+#icon-grid{
+    margin-top: 20px;
+    margin-bottom:10px;
+}
+#image{
+    border-radius: 20%;
+    height: 460px;
+}
+#body{
+background-color: rgba(0, 0, 0, .5);
+
+    
+}
